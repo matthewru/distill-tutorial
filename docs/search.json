@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-21T19:17:25-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Title of my Final Project",
+      "description": "This is where I will describe my final project.",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-21T19:17:26-05:00"
+    }
+  ],
+  "collections": []
+}
