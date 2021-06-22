@@ -8,3 +8,21 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## About Me
+
+My name is **Matthew Ru**, I am a rising sophomore at Naperville North High School in Naperville, Illinois. I like playing tennis, hanging out with my friends, gaming, and biking. 
+
+## About The Project
+
+The project titled *Fuel Efficiency and Weight* demonstrates the correlation between the fuel efficiency and the weight of a car.
+
+### Goals
+
+* Demonstrate the relationship between weight and fuel efficiency
+* Apply a similar analysis to other vehicles.
+* + New data for such a task might be difficult to obtain
+
+"This is Data Science"  
+~ Preceptor
+
+[Kane’s Free High School Data Science Bootcamp](https://bootcamp.davidkane.info)
