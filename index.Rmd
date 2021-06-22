@@ -12,6 +12,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about publishing to GitHub Pages at:
 # https://rstudio.github.io/distill/publish_website.html#github-pages
+library(tidyverse)
+library(ggthemes)
 
 ```
+
+```{r car-plot}
+mtcars %>% 
+select(mpg, wt) %>% 
+ggplot(mapping = aes(x = wt, y = mpg)) + 
+geom_point() + 
+geom_smooth(method = "lm", formula = "y~x", se = FALSE) + 
+theme_clean() + 
+labs(title = "Fuel Efficiency and Weight", 
+     subtitle = "Heavier cars are less fuel efficient", 
+     x = "Weight (in 1000s of lbs)", 
+     y = "MPG", 
+     caption = "Henderson and Vellerman (1981)")
+
+```
+
 
